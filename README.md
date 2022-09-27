@@ -36,5 +36,29 @@ My recommendation is that the item mrp has the biggest correlation with the sale
 Lmitiations & Next Steps:
 I have only begun my machine learning and I am working on the next steps of this. I plan on learning new methods and returning to this project to further the data and come up with more solutions on how to predict sales. 
 
+Spanish Wines
+Busines Problem predict the price of a wine based on data such as body, type, region, winery, etc. 
+The goal of this projcet was to predict the price of wines. To begin this project I ran the data through cleaning and preparing it for basic visualization. Through this I was able to create a heatmap to show correlation on price with the other features. 
+
+![image](https://user-images.githubusercontent.com/108833661/192656261-1ecae0b7-4afe-41d4-bf68-784d13275623.png)
+The image above shows the correlation of the price with important features. From this we can see that rating has an impact on the price. 
+The image below shows this in a bar graph.
+![image](https://user-images.githubusercontent.com/108833661/192656367-f8d49bec-b8be-4147-adc1-70f0dcabf1b4.png)
+
+After completing these steps I ran the data through supervised learning programs to predict the price of wine based on the features. 
+The first model was a KNN model with hypertuing it and the predictions are listed below. 
+KNN_GS Training R2: 0.7577310928328583
+KNN_GS Testing R2: 0.5585116619548744
+
+I then ran it through a Random Forest Model, hypertunig it to get the best results.  The predictions are listed below.
+RF_GS Training R2: 0.9425994107553216
+RF_GS Testing R2: 0.5552003494715313
+
+After completing the supervised learning I ran the data through an unsupervised learning method PCA. The results of this method are listed below.
+Training Accuracy 0.3019740302433396
+Testing Accuracy 0.17125846549613377
+
+Based on the predictive models the KNN model will give us the best prediction on the sales price. It is not an extremely high performance but it gives us the best price that will help the wine sell without overcharging the customer. Which in turn should boost sales and show a greate profit for the company.
+
 For futher information:
 For any additional questions, please contact jhughes1542@gmail.com
